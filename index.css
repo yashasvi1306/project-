@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(42, 42, 68);
+    padding: 6px;
+    vertical-align: top;
+}
+.nav_bar .left{
+    display: flex;
+    margin-top: 16px;
+}
+.nav_bar .right{
+    display: flex;
+    margin-top: 16px;
+}
+.left img{
+    width: 22%;
+    margin-top: 0px;
+} 
+.right p{
+    margin-inline: 22px;
+    font-size: 6 px;
+}
+.right button {
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(244, 69, 98);
+    color: white;
+    margin-top: 20px;
+
+}
+.sec-nav{
+    height: 30PX;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.s-left{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.s-right{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.right i {
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+
+.sec-nav p:hover {
+    color: rgb(245, 70, 99);
+    cursor: pointer;
+    font-weight: 600;
+}
+.main img {
+    width: 100%;  
+}
+.container h1 {
+    text-align: center;
+    display: 30px;
+    justify-content: 870px;
+    justify-content: 30px;
+    padding: 22px;
+}
+
+.container .card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 17%;
+    margin-block: 18px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.container h2{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+
+.premiere {
+    background-color: rgb(8, 8, 19);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer {
+    background-color: rgb(227, 218,218);
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img {
+    width: 22%;
+    margin-left: 39%;
+    border-top: 2px solid grey;
+}
+
+.footer .icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot-text1 {
+    margin-left: 100px;
+    border: 0px;
+    background-color: white;
+    display: inline-flexbox;
+}
+
+.foot-text2 {
+    margin-left: 170px;
+    border: 0px;
+    background-color: white;
+    display: inline-flexbox;
+    padding: 40px;
+}
+
+.foot-text3 {
+    margin-left: 120px;
+    border: 0px;
+    background-color: white;
+    display: inline-flexbox;
+    padding: 10px;
+}
+
+.foot-text4 {
+    margin-left: 140px;
+    border: 0px;
+    background-color: white;
+    display: inline-flexbox;
+    padding: 25px;
+}
+.nav_bar .left,.nav_bar .right,.main img,.card img,.banner img,.footer img,.premiere,.sign,.foot-text1,.foot-text2,.foot-text3,.foot-text4{
+    cursor: pointer;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.loc {
+    margin-top: 0px;
+}
+
+.menu {
+    margin-top: 20px;
+}
